@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0081a7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+}
+
+marquee {
+    background: url(../Images/land-1.png) center;
+}
+
+.movies a img {
+    transition: transform, .2s;
+}
+
+.movies a img:hover {
+    transform: scale(1.2);
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 5px 5px 5px black;
+    letter-spacing: 4px;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
