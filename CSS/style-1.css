@@ -23,6 +23,7 @@ h3 {
 
 .movie {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     margin: 50px;
     padding: 0 50px;
