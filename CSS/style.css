@@ -34,7 +34,7 @@ h3 {
 }
 
 .movies {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    gap: 10px;
     text-align: center;
 }
